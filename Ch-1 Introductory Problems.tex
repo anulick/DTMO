@@ -1,0 +1,73 @@
+\chapter{Introductory Problems}
+\section{Introduction}
+In this chapter, we have gathered 12 logic problems. To solve them, you do not need anything but common sense and the simplest calculation skills. However, that is not to say that the problems are easy, quite to the contrary. You might find yourself struggling after the first 2 or 3. However, the reason we included the particular selection of problems is two-fold. First and foremost, I want to from the start instill that math is more than just a set of formulas—it is a way of thinking in terms of numbers. Secondly, I aim to highlight common errors that often plague problem solvers, but rather than telling you what they are, we have decided to let you make them and find out. With that lets begin.\\
+ The $\clubsuit$ is placed before extensions to problems which require a bit more math than the original problem\\
+Solve till you reach at least \points{69}. This exercise is worth \points{92}. 
+\begin{xcb}{Exercises}
+\begin{enumerate}
+\item \points{2} A caterpillar crawls up a pole 75 inches high, starting from the ground. Each day it crawls up 5 inches, and each night it slides down 4 inches. When will it first reach the top of the pole? 
+\begin{hint}
+    \addhint {Why will it slide down after reaching the top of the pole?}
+\end{hint}
+\item \points{2} In a certain year, there were exactly four Fridays and exactly four Mondays in January. On what day of the week did the 20th of January fall that year? 
+\begin{hint}
+    \addhint {Try to determine which weekdays we had five off in that month then.}
+\end{hint}
+\item \points{3}(PROMYS 2023) How many boxes are crossed by a diagonal in a rectangular table formed by 199 x 991 small squares? $\clubsuit$\points{5}Try generalizing for a diagonal passing through $m \times n$ grid.
+\begin{hint}
+    \addhint {What is the condition for the diagonal intersecting a lattice point? How many times will that occur?}
+\end{hint}
+\item \points{3} Cross out 10 digits from the number 1234512345123451234512345 so that the remaining number is as large as possible.
+\begin{hint}
+    \addhint {What is the largest number you can form from an arbitrary set of digits? For example, $5986772$. Why did you take the approach you did?}
+\end{hint}
+\item \points{2}(Arvind Gupta) Two friends sit in the mess of IIT-Kanpur. One of them has tea and the other has Khus Soda(A south-east Asian grass which is genetically quite close to lemon grass. Consumed with soda during summer due to its ability to hold electrolytes.)\\
+Our glasses are of 100 ml. Each is filled to 90ml with its respective drink. They both decide to make their friendship stronger by mixing their drinks. The first friend fills the tea glass with khus soda. The glass is then stirred vigorously without loss. Then 10ml of the mixture is added to the khus soda(returning both the glasses to 90ml). Now does the tea have more soda or does the soda have more tea? What if we did the same twice?$\clubsuit$ \points{2} What would happen if we kept doing this again and again for a very long period of time? $\clubsuit$\points{9} Can we generate a function, $f(n)$ for the percentage of khus soda in tea if we have done the process $n$ times?
+\begin{hint}
+        \addhint {Just compute the fraction, now think why it makes sense intuitively as well.}
+        \addhint {Think about what the end case can be? At what case will the transfers stop mattering, and the entire thing will become invariant?}
+        \addhint {Try to compute the fraction to a few more terms and look for patterns.}
+\end{hint}
+\item \points{3}Distribute 127 one dollar bills among 7 wallets so that any integer sum from 1 through 127 dollars can be paid without opening the wallets.
+\begin{hint}
+    \addhint {Think Binary}
+\end{hint}
+\item (David Morrin) \points{9}You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island that states that if a dragon ever finds out that he/she has green eyes, then at precisely midnight at the end of the day of this discovery, he/she must relinquish all dragon powers and transform into a long-tailed sparrow. However, there are no mirrors on the island, and the dragons never talk about eye color, so they have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. You then decide to tell them something that they all already know (for each can see the colors of the eyes of all the other dragons): You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens?
+\begin{hint}
+    \addhint {Start with 1 dragon. Than 2. Than 3... A pattern becomes obvious.}
+\end{hint}
+
+\item (David Morrin) \points{5}A rubber band with an initial length of 10 cm has one end attached to a wall. At $t = 0$, the other end is pulled away from the wall at a constant speed of 10 cm/s. (Assume that the rubber band stretches uniformly.) At the same time, an ant located at the end not attached to the wall begins to crawl toward the wall, with a constant speed of 5 cm/s relative to the band. Will the ant reach the wall? If so, how much time will it take? $\clubsuit$\points{5} What if the rubber band has length $L$, speed $u$, and the ant crawls with speed $v$; what is the limit for which it will not reach the end?
+\begin{hint}
+    \addhint {Think in terms of percentage of the journey.}
+    \addhint {It will always reach the end (no matter the values as long as $v \neq 0$). Now try to walk backwards from this...}
+\end{hint}
+\item (TED Ed) \points{5} You are given twelve coins, eleven of which have the same weight, and one of which has a weight different from the others (either heavier or lighter; you do not know). You have a balance scale. What is the minimum number of weighings required in order to guarantee that you can determine which coin has the different weight and also whether it is heavier or lighter than the rest? $\clubsuit$ \points{9} You are given $N$ coins, $N-1$ of which have the same weight, and one of which has a weight different from the others (either heavier or lighter; you do not know). You are allowed $W$ weighings on a balance scale. What is the maximum value of $N$, as a function of $W$, for which you are guaranteed to be able to determine which coin has the different weight and also whether it is heavy or light?
+\begin{hint}
+        \addhint {The answer is 3. Try walking backward now.}
+        \addhint {Let's start by weighing any four coins, against other four (setting aside the remaining four).}
+        \addhint {After the first weighing we are sure of some coins. Let's use them to our advantage now.}
+        \addhint {How did you solve the case with 12 coins and 3 weighing? The same method is applicable in general.}
+\end{hint}
+\item (Even Chen) \points{3} Determine, with proof, the smallest positive integer $c$ such that for any positive integer $n$, the decimal representation of the number $c^n+2014$ has digits all less than 5.
+\begin{hint}
+    \addhint {Think in terms of the unit digit. We can quickly rule out a lot of numbers.}
+\end{hint}
+\item (Arthur Engel) \points{5} The numbers $1, 2, \ldots, 10$ are written on a board. Every minute, one can select three numbers $a, b, c$ on the board, erase them, and write $\sqrt{a^2+b^2+c^2}$ in their place. This process continues until no more numbers can be erased. What is the largest possible number that can remain on the board at this point? $\clubsuit$ \points{2}What about if we started with $1, 2, 3, \ldots, n$?
+\begin{hint}
+    \addhint {What is the value of the sum of squares of the numbers written on the board as we continue doing this?}
+\end{hint}
+\item (Putnam 2017, A1) \points{9}Find the smallest set $S$ of positive integers such that \\
+(a) $2 \in S$ \\
+(b) $n \in S$ whenever $n^2 \in S$ \\
+(c) $(n + 5)^2 \in S$ whenever $n \in S$ \\
+\begin{hint}
+    \addhint {Can we combine the b and c?}
+    \addhint {1 and positive integers divisible by 5  will not be in the set. Why? What about all the other integers?}
+\end{hint}
+\item  (Iceland 2009) \points{9} A number of persons seat at a round table. It is known that there are $7$ women who have a woman to their right and $12$ women who have a man to their right. We know that $3$ out of each $4$ men have a woman to their right. How many people are seated at the table?
+\begin{hint}
+    \addhint{Think in the terms of people on the left!}
+\end{hint}
+\end{enumerate}
+\end{xcb}
